@@ -10,7 +10,10 @@ import {
 import Image from "next/image";
 import Link from "next/link";
 import { v4 as uuidv4 } from "uuid";
-import { TextGenerateEffectDemo } from "../childComps/TextGenerateEffectDemo";
+import {
+  TextAnimation,
+  TextGenerateEffect,
+} from "../childComps/TextGenerateEffect";
 
 export const HeroParallax = ({
   products,
@@ -155,7 +158,7 @@ export const Header = () => {
         </span>
       </h1>
       <div className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200">
-        <TextGenerateEffectDemo />
+        <TextAnimation />
       </div>
     </div>
   );
