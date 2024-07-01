@@ -10,10 +10,7 @@ import {
 import Image from "next/image";
 import Link from "next/link";
 import { v4 as uuidv4 } from "uuid";
-import {
-  TextAnimation,
-  TextGenerateEffect,
-} from "../childComps/TextGenerateEffect";
+import { TextAnimation } from "../childComps/TextGenerateEffect";
 
 export const HeroParallax = ({
   products,
