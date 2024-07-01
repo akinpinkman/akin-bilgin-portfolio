@@ -132,8 +132,8 @@ export const Header = () => {
   }, []);
 
   return (
-    <div className="max-w-7xl relative mx-auto py-20 md:py-40 px-4 w-full left-0 top-0">
-      <h1 className="md:text-7xl text-6xl font-bold dark:text-white">
+    <div className="max-w-7xl relative mx-auto py-20 md:py-40 px-4 w-full  left-0 top-0">
+      <h1 className="text-3xl md:text-7xl font-bold dark:text-white">
         Akın Bilgin <br />
         <span className="magic">
           <span className="magic-star">
