@@ -15,6 +15,21 @@ h1 {
   font-style: bold;
 }
 
+p,
+label,
+button {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+}
+
+h2 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1rem;
+  font-style: bold;
+  font-weight: 700;
+}
+
 @keyframes background-pan {
   from {
     background-position: 0% center;
@@ -53,7 +68,6 @@ h1 {
 
 .magic .magic-star {
   --size: clamp(20px, 1.5vw, 30px);
-
   animation: scale 700ms ease forwards;
   display: block;
   height: var(--size);
