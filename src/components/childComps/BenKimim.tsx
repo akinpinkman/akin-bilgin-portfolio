@@ -2,7 +2,7 @@ import { Iletisim } from "./Iletisim";
 
 export function BenKimim() {
   return (
-    <section className="flex md:px-[150px] pb-[100px]">
+    <section className="flex md:px-[150px] pb-40">
       <div className="flex flex-col px-10  items-center">
         <h1 className="flex justify-center pb-10 text-4xl font-bold">
           BEN KİMİM?
@@ -14,7 +14,7 @@ export function BenKimim() {
           width={500}
         />
 
-        <article className="">
+        <article>
           <p>Merhabalar!</p>
           <br />
           <br />
